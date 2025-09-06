@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("fonts/InterRegular.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Inter-Semi";
+    src: url("fonts/InterSemiBold.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "PlayfairSC ";
+    src: url("fonts/PlayfairDisplaySCRegular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Playfair";
+    src: url("fonts/PlayfairDisplayMedium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/PoppinsRegular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
