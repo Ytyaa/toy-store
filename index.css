@@ -1,29 +1,81 @@
-
 @font-face {
     font-family: "Inter-Regular";
     src: url("fonts/InterRegular.otf");
     font-weight: 400;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Inter-Semi";
     src: url("fonts/InterSemiBold.otf");
     font-weight: 600;
 }
+
 @font-face {
     font-family: "PlayfairSC ";
     src: url("fonts/PlayfairDisplaySCRegular.ttf");
     font-weight: 400;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Playfair";
     src: url("fonts/PlayfairDisplayMedium.ttf");
     font-weight: 500;
 }
+
 @font-face {
     font-family: "Poppins";
     src: url("fonts/PoppinsRegular.ttf");
     font-weight: 400;
     font-style: normal;
 }
+
+html,
+body {
+    overflow-x: hidden;
+}
+body {
+    background-color: #fff;
+}
+
+
+
+.container {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+}
+.header__logo {
+    width: 40px;
+    height: 40px;
+}
+.header__nav-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+}
+.header__nav-menu li a {
+    color: #252525;
+    list-style: none;
+    font-family: 'Inter-Regular';
+    font-size: 20px;
+    line-height: 120%;
+}
+.header__actions {
+    display: flex;
+    gap: 16px;
+}
+.header__button {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+
+
+
