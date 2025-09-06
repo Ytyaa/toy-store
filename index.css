@@ -12,6 +12,13 @@
 }
 
 @font-face {
+    font-family: "Inter-Bold";
+    src: url("fonts/InterBold.otf");
+    font-weight: 700;
+}
+
+
+@font-face {
     font-family: "PlayfairSC ";
     src: url("fonts/PlayfairDisplaySCRegular.ttf");
     font-weight: 400;
@@ -35,16 +42,17 @@ html,
 body {
     overflow-x: hidden;
 }
+
 body {
     background-color: #fff;
 }
-
 
 
 .container {
     margin-left: 80px;
     margin-right: 80px;
 }
+
 .header__content {
     display: flex;
     justify-content: space-between;
@@ -52,15 +60,18 @@ body {
     padding-bottom: 24px;
     align-items: center;
 }
+
 .header__logo {
     width: 40px;
     height: 40px;
 }
+
 .header__nav-menu {
     display: flex;
     justify-content: space-between;
     gap: 56px;
 }
+
 .header__nav-menu li a {
     color: #252525;
     list-style: none;
@@ -68,14 +79,353 @@ body {
     font-size: 20px;
     line-height: 120%;
 }
+
 .header__actions {
     display: flex;
     gap: 16px;
 }
+
 .header__button {
     width: 24px;
     height: 24px;
     background: transparent;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    width: 713px;
+    height: 263px;
+    gap: 24px;
+    align-items: center;
+}
+
+
+.main__title {
+    color: #252525;
+    font-size: 64px;
+    font-family: "Playfair";
+    text-transform: uppercase;
+    line-height: 120%;
+}
+
+.main__text {
+    display: flex;
+    color: #252525;
+    font-size: 20px;
+    font-family: Inter-Regular;
+    text-align: center;
+    line-height: 160%;
+}
+
+.main__button {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+    width: 287px;
+    height: 74px;
+    padding: 20px 40px;
+    border-radius: 0 32px 0 32px;
+    background-color: #252525;
+    cursor: pointer;
+}
+
+.main__button span {
+    color: #fff;
+    font-family: 'PlayfairSC';
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.main__button img {
+    width: 34px;
+    height: 34px;
+}
+
+.main__button:hover {
+    background-color: #000000;
+}
+
+.main__pictures {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.horisontal__intersect {
+    display: flex;
+    margin: 80px auto 0 auto;
+    width: 1120px;
+    height: 3px;
+    background-color: #252525;
+}
+
+.catalog__content {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block__name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block__subtext {
+    color: #252525;
+    font-size: 24px;
+    font-family: 'Inter-Regular';
+    line-height: 120%;
+}
+
+.block__title {
+    color: #252525;
+    font-size: 36px;
+    font-family: 'Playfair';
+    line-height: 120%;
+}
+
+
+.catalog__goods {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog__filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 756px;
+    height: 77px;
+    border-radius: 40px;
+    background-color: #F6F6F6;
+    padding: 8px 8px;
+
+}
+
+.catalog__button {
+    color: #252525;
+    font-family: 'Inter-Regular';
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 2%;
+    background-color: transparent;
+    padding: 16px 40px;
+}
+
+.button-active {
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.catalog__production {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.catalog__cart-product img {
+    width: 300px;
+    height: 300px;
+}
+
+.catalog__cart-description {
+    padding: 16px 24px;
+}
+
+.catalog__cart-name {
+    color: #252525;
+    font-size: 24px;
+    line-height: 120%;
+    font-family: "Inter-Semi";
+}
+
+.catalog__cart-review {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.catalog__cart-rating {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.catalog__cart-review img {
+    width: 24px;
+    height: 24px;
+}
+
+.catalog__cart-review p {
+    color: #252525;
+    font-family: "Inter-Bold";
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 2%;
+}
+
+.catalog__cart-review span {
+    color: #252525;
+    font-size: 16px;
+    font-family: 'Inter-Regular';
+    line-height: 140%;
+}
+
+.catalog__cart-button {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: "PlayfairSC";
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    background-color: #252525;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.catalog__pagination {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.circle-page {
+    background-color: #D9D9D9;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+.circle-active {
+    background-color: #252525;
+}
+
+.achievement__content {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.achievement__indicators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 8px;
+    color: #252525;
+
+}
+
+.achievement__indicator-title {
+    font-family: "Inter-Regular";
+    font-size: 64px;
+    line-height: 120%;
+
+}
+
+.achievement__indicator-text {
+    margin-top: 8px;
+    font-family: "Playfair";
+    font-size: 24px;
+    line-height: 120%;
+}
+
+
+.vertical__intersect {
+    width: 1px;
+    height: 143px;
+    background-color: #252525;
+}
+
+
+.about__content {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.about__info {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: flex-end;
+}
+
+.about__text {
+    width: 600px;
+    height: 474px;
+    color: #252525;
+    font-family: "Inter-Regular";
+    font-size: 20px;
+    line-height: 160%;
+
+}
+
+
+.about__picture {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    height: 432px;
+}
+
+.about__text button {
+    margin-top: 24px;;
+}
+
+.about__picture img {
+    width: 288px;
+    height: 432px;
+}
+
+.picture-top {
+
+}
+
+
 
 
 
